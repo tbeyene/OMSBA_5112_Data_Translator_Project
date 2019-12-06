@@ -1,0 +1,85 @@
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (master)
+$ git remore
+git: 'remore' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (master)
+$ git remote
+origin
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (master)
+$ git checkout john_branch
+error: pathspec 'john_branch' did not match any file(s) known to git
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (master)
+$ git checkout -b john_branch
+Switched to a new branch 'john_branch'
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (john_branch)
+$ git checkout -b taz_repo
+Switched to a new branch 'taz_repo'
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (taz_repo)
+$ git remote
+origin
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (taz_repo)
+$ git push
+fatal: The current branch taz_repo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin taz_repo
+
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (taz_repo)
+$ git push --set-upstream origin taz_repo
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'taz_repo' on GitHub by visiting:
+remote:      https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project/pull/new/taz_repo
+remote:
+To https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project.git
+ * [new branch]      taz_repo -> taz_repo
+Branch 'taz_repo' set up to track remote branch 'taz_repo' from 'origin'.
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (taz_repo)
+$ git checkout john_branch
+Switched to branch 'john_branch'
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (john_branch)
+$ git push --set-upstream origin john_branch
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'john_branch' on GitHub by visiting:
+remote:      https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project/pull/new/john_branch
+remote:
+To https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project.git
+ * [new branch]      john_branch -> john_branch
+Branch 'john_branch' set up to track remote branch 'john_branch' from 'origin'.
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (john_branch)
+$ git checkout -b eric_branch
+Switched to a new branch 'eric_branch'
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (eric_branch)
+$ git push --set-upstream origin eric_branch
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'eric_branch' on GitHub by visiting:
+remote:      https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project/pull/new/eric_branch
+remote:
+To https://github.com/ehestekin/OMSBA_5112_Data_Translator_Project.git
+ * [new branch]      eric_branch -> eric_branch
+Branch 'eric_branch' set up to track remote branch 'eric_branch' from 'origin'.
+
+ehest@DESKTOP-VBIQC9H MINGW64 /s/MSBA/Data Translator Challenge (eric_branch)
